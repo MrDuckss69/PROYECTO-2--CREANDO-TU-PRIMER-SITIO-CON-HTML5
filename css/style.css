@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.imgur.com/PUiu9dt.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+header {
+    background: #33333300;
+    color: #fffbfb;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.info {
+    background: #ffffff25;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.links-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #e0e0e03b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.links-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff3b;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 10px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+.links-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.links-item h4 {
+    margin: 10px 0;
+}
+.links-item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.links-item a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #33333315;
+    color: #fff2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.links-item:hover {
+    transform: scale(1.05);
+}

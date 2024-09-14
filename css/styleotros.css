@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.imgur.com/PUiu9dt.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+header {
+    background: #33333300;
+    color: #fffbfb;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+.info {
+    background: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 251, 251, 0.747);
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 1000px;
+    margin: 20px auto;
+    color: white;
+}
+.info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+footer {
+    background: #33333315;
+    color: #fff2f2;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+footer button:hover {
+    background: #555;
+}
